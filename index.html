@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurriculumVitae</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <h1>CurriculumVitae</h1>
+        </div>
+    </header>
+    <body>
+
+        <div class="name">
+            <h2>ANASTASIA PANKOVA</h2>
+        </div>
+
+        <div class="contact">
+            <h3>CONTACT INFO</h3>
+            <p>+375293789302, <a href="https://mail.google.com/mail/u/0/#inbox">pankkoo89@gmail.com</a></p>
+        </div>
+
+        <div class="info">
+            <h3>Info</h3>
+            <p>I am a second-year student majoring in Computer Science and Computer Engineering. <br>
+             My goal is to become a programmer and try my hand at both frontend and backend. <br>
+             I plan to master new technologies and improve as a frontend/backend developer.</p>
+        </div>
+
+        <div class="skills">
+            <h3>Skills</h3>
+
+            <div class="programming-languages">
+                <span>programming-languages</span>
+                <ul>
+                    <li>C#</li>
+                    <li>JS</li>
+                    <li>HTML/CSS</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+
+            <div class="tools">
+                <span>DEVELOPMENT TOOLS</span>
+                <p>VS Code, VS</p>
+            </div>
+
+        </div>
+
+        <div class="english">
+            <h3>English level</h3>
+            <span>B1</span>
+        </div>
+
+        <div class="code-exemples">
+            <h3>Code Exemples</h3>
+            <ul>
+                <li>C#</li>
+                <pre>
+                    <code>
+ // function that takes a string and return a new string with all vowels removed 
+    
+public static string Disemvowel(string str)
+{
+    string vowels = "aeiou";
+    string final = new string(str.Where(c => !vowels.Contains(Char.ToLower(c))).ToArray());
+    return final;
+}    
+                    </code>
+                </pre>
+                <li>JS</li>
+                <pre>
+                    <code>
+//function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out
+
+function filter_list(l) {
+    return l.filter(item => typeof item === 'number');
+    }
+                    </code>
+                </pre>
+            </ul>
+        </div>
+    </body>
+</body>
+</html>
