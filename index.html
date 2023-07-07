@@ -19,75 +19,92 @@
             <h2>ANASTASIA PANKOVA</h2>
         </section>
 
-        <section class="contact">
-            <h3>CONTACT INFO</h3>
-            <p>+375293789302, <a href="https://mail.google.com/mail/u/0/#inbox">pankkoo89@gmail.com</a></p>
-        </section>
+       <section class="info">
+        <div class="aside-info">
 
-        <section class="info">
-            <h3>Info</h3>
-            <p>I am a second-year student majoring in Computer Science and Computer Engineering. <br>
-             My goal is to become a programmer and try my hand at both frontend and backend. <br>
-             I plan to master new technologies and improve as a frontend/backend developer.</p>
-        </section>
-
-        <section class="skills">
-            <h3>Skills</h3>
-
-            <div class="programming-languages">
-                <span>programming-languages</span>
+            <div class="contact">
+                <h3>CONTACT INFO</h3>
                 <ul>
-                    <li>C#</li>
-                    <li>JS</li>
-                    <li>HTML/CSS</li>
-                    <li>SQL</li>
+                    <li>+375293789302</li>
+                    <li><a href="https://mail.google.com/mail/u/0/#inbox">pankkoo89@gmail.com</a></li>
+                </ul>
+                
+            </div>
+            
+            
+            <div class="skills">
+                <h3>Skills</h3>
+                    <ul>
+                        <li>C#</li>
+                        <li>JS</li>
+                        <li>HTML/CSS</li>
+                        <li>SQL</li>
+                    </ul>
+                
+     
+                <!-- <div class="tools">
+                    <span>DEVELOPMENT TOOLS</span>
+                    <p>VS Code, VS</p>
+                </div> -->
+     
+            </div>
+     
+            <div class="languages">
+                <h3>languages</h3>
+                <ul>
+                    <li>Russian (Native)</li>
+                    <li>Belarussian (Native)</li>
+                    <li>English (B1)</li>
                 </ul>
             </div>
+        </div>
 
-            <div class="tools">
-                <span>DEVELOPMENT TOOLS</span>
-                <p>VS Code, VS</p>
+        <div class="main-info">
+
+            <div>
+                <h3>Info</h3>
+                <p>I am a second-year student majoring in Computer Science and Computer Engineering. <br>
+                My goal is to become a programmer and try my hand at both frontend and backend. <br>
+                I plan to master new technologies and improve as a frontend/backend developer.</p>
             </div>
-
-        </section>
-
-        <section class="languages">
-            <h3>languages</h3>
-            <ul>
-                <li>Russian (Native)</li>
-                <li>Belarussian (Native)</li>
-                <li>English (B1)</li>
-            </ul>
-        </section>
-
-        <section class="code-exemples">
-            <h3>Code Exemples</h3>
-            <span>C#</span> 
+     
+            <div class="code-example">
+                <h3>Code Exemples</h3>
+                <span>C#</span> 
                 <pre>
                     <code>
- <span class="comment">// function that takes a string and return a new string with all vowels removed</span>  
-    
-public static string Disemvowel(string str)
-{
-    string vowels = "aeiou";
-    string final = new string(str.Where(c => !vowels.Contains(Char.ToLower(c))).ToArray());
-    return final;
-}    
-                    </code>
+            <span class="comment">// function that takes a string and return a new string with all vowels removed</span>  
+            
+            public static string Disemvowel(string str)
+            {
+            string vowels = "aeiou";
+            string final = new string(str.Where(c => !vowels.Contains(Char.ToLower(c))).ToArray());
+            return final;
+            }    
+                            </code>
                 </pre>
+     
                 <span>JS</span> 
                 <pre>
                     <code>
-<span class="comment">//function that takes a list of non-negative integers and strings
-// and returns a new list with the strings filtered out</span> 
-
-function filter_list(l) {
-    return l.filter(item => typeof item === 'number');
-    }
+            <span class="comment">//function that takes a list of non-negative integers and strings
+            // and returns a new list with the strings filtered out</span> 
+            
+            function filter_list(l) {
+            return l.filter(item => typeof item === 'number');
+            }
                     </code>
                 </pre>
-            
-        </section>
+            </div>
+        </div>
+
+       </section>
+             
+
+        
+             
+       
+
     </main>
 
     <footer class="footer">
