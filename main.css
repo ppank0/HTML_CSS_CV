@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 150px;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    font-size: smaller;
+    background-color: rgb(4, 4, 4);
+    color: #fff;
+
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    width: -webkit-fill-available;
+    text-align: center;
+}
+
+.name h2{
+    margin:26px 0 0;
+
+    font-size:xx-large;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+.name hr{
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+.aside-info{
+    padding: 0px 16px;
+
+    border-width: 7px;
+    border-color: black;
+    border-style: solid;
+}
+.about-me p{
+    padding-left: 10px;
+
+    font-size: large;
+    border-left: 7px black solid;
+}
+.contact h3{
+    margin-top: 14px;
+}
+h3{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: large;
+}
+pre{
+    text-align: start;
+    background-color: #000000;
+    color: #fff;
+    font-size: large;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(65, 65, 65, 0.808);
+}
+
+.github{
+    background-image: url(/icon/github-icon.svg);
+    white-space: nowrap;
+	padding-left: 25px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.comment{
+    color: rgba(255, 255, 255, 0.744);
+}
